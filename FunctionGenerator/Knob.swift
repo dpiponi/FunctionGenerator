@@ -1,11 +1,3 @@
-//
-//  Knob.swift
-//  Knob
-//
-//  Created by Dan Piponi on 10/19/15.
-//  Copyright © 2015 Dan Piponi. All rights reserved.
-//
-
 import UIKit
 import QuartzCore
 
