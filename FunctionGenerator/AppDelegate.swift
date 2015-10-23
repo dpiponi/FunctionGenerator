@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  FunctionGenerator
-//
-//  Created by Dan Piponi on 10/20/15.
-//  Copyright © 2015 Dan Piponi. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
