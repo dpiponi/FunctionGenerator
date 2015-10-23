@@ -98,7 +98,7 @@ class Knob: UIControl {
         CATransaction.setDisableActions(true)
         
         setLayerFrames()
-        
+        CATransaction.setAnimationDuration(0.0)
         CATransaction.commit()
         
         sendActionsForControlEvents(.ValueChanged)

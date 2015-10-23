@@ -38,6 +38,9 @@ func sampleShader(
         return noErr;
 }
 
+//
+// https://grokswift.com/custom-fonts/
+//
 class ViewController: UIViewController {
 
     @IBOutlet weak var playButton: UIButton!
@@ -73,8 +76,8 @@ class ViewController: UIViewController {
         
         frequencyKnob.minValue = 200
         frequencyKnob.maxValue = 2000
-        frequencyKnob.minAngle = 0
-        frequencyKnob.maxAngle = 2*3.14159
+        frequencyKnob.minAngle = 3.14159/8
+        frequencyKnob.maxAngle = 2*3.14159-3.14159/8
         frequencyKnob.value = 200
         
         knobChanged(frequencyKnob)
@@ -171,7 +174,7 @@ class ViewController: UIViewController {
             AudioComponentInstanceDispose(gen)
             gen = nil;
             
-            selectedButton.setTitle("Play", forState: UIControlState(rawValue:0))
+            selectedButton.setTitle("Off", forState: UIControlState(rawValue:0))
         } else {
             genCreate()
             
@@ -181,7 +184,7 @@ class ViewController: UIViewController {
             err = AudioOutputUnitStart(gen);
             print("Start err=", err)
             
-            selectedButton.setTitle("Stop", forState: UIControlState(rawValue:0))
+            selectedButton.setTitle("On", forState: UIControlState(rawValue:0))
         }
     }
     

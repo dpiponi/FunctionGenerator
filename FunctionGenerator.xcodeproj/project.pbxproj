@@ -17,6 +17,7 @@
 		BD87177A1BD8AB4900A6A4BD /* knob1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8717771BD8AB4900A6A4BD /* knob1.png */; };
 		BD87177B1BD8AB4900A6A4BD /* knob2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8717781BD8AB4900A6A4BD /* knob2.png */; };
 		BD87177C1BD8AB4900A6A4BD /* knob3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8717791BD8AB4900A6A4BD /* knob3.png */; };
+		BDB1FBDE1BD9B38F001B05E8 /* Impact Label.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB1FBDD1BD9B38F001B05E8 /* Impact Label.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		BD8717771BD8AB4900A6A4BD /* knob1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob1.png; sourceTree = "<group>"; };
 		BD8717781BD8AB4900A6A4BD /* knob2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob2.png; sourceTree = "<group>"; };
 		BD8717791BD8AB4900A6A4BD /* knob3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob3.png; sourceTree = "<group>"; };
+		BDB1FBDD1BD9B38F001B05E8 /* Impact Label.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Impact Label.ttf"; sourceTree = "<group>"; };
+		BDB1FBE71BD9BC03001B05E8 /* Impact Label Licence.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Impact Label Licence.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 		BD8717511BD724DB00A6A4BD = {
 			isa = PBXGroup;
 			children = (
+				BDB1FBE71BD9BC03001B05E8 /* Impact Label Licence.txt */,
 				BD87175C1BD724DB00A6A4BD /* FunctionGenerator */,
 				BD87175B1BD724DB00A6A4BD /* Products */,
 			);
@@ -68,6 +72,7 @@
 				BD87175F1BD724DB00A6A4BD /* ViewController.swift */,
 				BD87176F1BD881E000A6A4BD /* Knob.swift */,
 				BD8717711BD881E900A6A4BD /* KnobLayer.swift */,
+				BDB1FBDD1BD9B38F001B05E8 /* Impact Label.ttf */,
 				BD8717771BD8AB4900A6A4BD /* knob1.png */,
 				BD8717781BD8AB4900A6A4BD /* knob2.png */,
 				BD8717791BD8AB4900A6A4BD /* knob3.png */,
@@ -143,6 +148,7 @@
 				BD87177B1BD8AB4900A6A4BD /* knob2.png in Resources */,
 				BD8717651BD724DB00A6A4BD /* Assets.xcassets in Resources */,
 				BD8717631BD724DB00A6A4BD /* Main.storyboard in Resources */,
+				BDB1FBDE1BD9B38F001B05E8 /* Impact Label.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				BD87176E1BD724DB00A6A4BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
